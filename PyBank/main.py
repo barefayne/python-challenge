@@ -73,7 +73,7 @@ with open(output_path, 'w') as text_file:
   # Write rows
   text_file.write(f"Financial Analysis\n")
   text_file.write(f"----------------------------\n")
-  text_file.write(f"Total Months: {m_count}\n\n")
+  text_file.write(f"Total Months: {m_count}\n")
   text_file.write(f"Total: ${total}\n")
   text_file.write(f"Total: ${avg_change}\n")
   text_file.write(f"Greatest Increase in Profits: {greatest_increase[0]} ${greatest_increase[1]}\n")
