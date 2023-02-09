@@ -2,7 +2,7 @@ import os
 import csv
 
 # csv file path
-budget_csv = r"C:\Users\Bethelhem\Desktop\HomeWork\python-challenge\PyBank\Resources\budget_data.csv"
+budget_csv = "Resources/budget_data.csv"
 
 # List/ variables
 m_count = 1
@@ -65,7 +65,7 @@ print(f"Greatest Increase in Profits: {greatest_increase[0]} ${greatest_increase
 print(f"Greatest Decrease in Profits: {greatest_decrease[0]} ${greatest_decrease[1]}")
 
 # Output path
-output_path = r'C:\Users\Bethelhem\Desktop\HomeWork\python-challenge\PyBank\analysis\results.txt'
+output_path = "analysis/results.txt"
 
 # Open the output file
 with open(output_path, 'w') as text_file:

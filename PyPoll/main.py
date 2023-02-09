@@ -2,9 +2,9 @@ import os
 import csv
 
 # csv file path
-election_csv = r"C:\Users\Bethelhem\Desktop\HomeWork\python-challenge\PyPoll\Resources\election_data.csv"
+election_csv = "Resources/election_data.csv"
 # Output path
-output_path = r'C:\Users\Bethelhem\Desktop\HomeWork\python-challenge\PyPoll\analysis\results.txt'
+output_path = "analysis/results.txt"
 # List/ variables
 total_votes = 0
 c_list = []
